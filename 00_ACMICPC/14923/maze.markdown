@@ -14,7 +14,7 @@ author: Alex2006
 
 ## 2. Pesudo Code
 #### (a) Step1
-{% highlight c %}
+```{.cpp}
 bool findPath(x, y)
     if (x, y) is the exit then
         return TRUE
@@ -24,7 +24,7 @@ bool findPath(x, y)
                 if findPath (x', y') then
                    return TRUE
     return FALSE
-{% endhighlight %}
+```
  * 두가지가 결여되어 있다 (1)  Basecase, (2) Basecase로의 수렴
 
 #### (b) Step2
