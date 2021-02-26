@@ -28,7 +28,7 @@ bool findPath(x, y)
  * 두가지가 결여되어 있다 (1)  Basecase, (2) Basecase로의 수렴
 
 #### (b) Step2
-{% highlight c %}
+```{.cpp}
 bool findPath(x, y)
     if (x, y) is either on the wall or visited cell then
         return FALSE
@@ -38,7 +38,7 @@ bool findPath(x, y)
         mark(x, y) as a visited cell
         foreach neighboring cell (x', y') of (x, y) do
         ... ...
-{% endhighlight %}
+```
 
 ## 3. Problem
 #### (a) [미로탈출 14923](https://www.acpcmicpc.net/problem/14923)
