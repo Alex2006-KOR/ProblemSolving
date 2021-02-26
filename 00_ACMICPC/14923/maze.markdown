@@ -41,8 +41,7 @@ bool findPath(x, y)
 {% endhighlight %}
 
 ## 3. Problem
-#### (a) 미로탈출 14923
-[https://www.acpcmicpc.net/problem/14923]
+#### (a) [미로탈출 14923](https://www.acpcmicpc.net/problem/14923)
 
 #### (b) Reference code
 
