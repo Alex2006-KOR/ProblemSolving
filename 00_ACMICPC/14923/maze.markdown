@@ -7,13 +7,13 @@ author: Alex2006
   
   
 ------
-## 1. Recursive Thinking
-#### (a) 현재 위치가 출구 이거나
-#### (b) 이웃한 셀들 중 하나에서 현재 위치를 지나지 않고 출구까지 가는 경로가 있거나
+### 1. Recursive Thinking
+##### (a) 현재 위치가 출구 이거나
+##### (b) 이웃한 셀들 중 하나에서 현재 위치를 지나지 않고 출구까지 가는 경로가 있거나
 
 
-## 2. Pesudo Code
-#### (a) Step1
+### 2. Pesudo Code
+##### (a) Step1
 ```{.cpp}
 bool findPath(x, y)
     if (x, y) is the exit then
@@ -27,7 +27,7 @@ bool findPath(x, y)
 ```
  * 두가지가 결여되어 있다 (1)  Basecase, (2) Basecase로의 수렴
 
-#### (b) Step2
+##### (b) Step2
 ```{.cpp}
 bool findPath(x, y)
     if (x, y) is either on the wall or visited cell then
@@ -40,10 +40,10 @@ bool findPath(x, y)
         ... ...
 ```
 
-## 3. Problem
-#### (a) [미로탈출 14923](https://www.acpcmicpc.net/problem/14923)
+### 3. Problem
+##### (a) [미로탈출 14923](https://www.acpcmicpc.net/problem/14923)
 
-#### (b) Reference code
+##### (b) Reference code
 
 ------
 
