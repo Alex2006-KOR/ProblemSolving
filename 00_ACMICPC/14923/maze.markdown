@@ -30,7 +30,7 @@ bool findPath(x, y)
 
 ##### (b) Step2
 
-```{.cpp}
+```cpp
 bool findPath(x, y)
     if (x, y) is either on the wall or visited cell then
         return FALSE
