@@ -9,8 +9,8 @@ author: Alex2006
 ------
 ### 1. Maze
 ![MAZE](./img/maze.jpg)
-#### (a) Yellow: Start, Green: End, Gray: Wall, White: Pathway
-#### (b) Start에서 End까지 Path가 존재하는지를 Return
+##### (a) Yellow: Start, Green: End, Gray: Wall, White: Pathway
+##### (b) Start에서 End까지 Path가 존재하는지를 Return
 
 
 ### 2. Recursive Thinking
