@@ -32,7 +32,7 @@ bool findPath(x, y)
                    return TRUE
     return FALSE
 ```
- **두가지가 결여되어 있다 (1)  Basecase, (2) Basecase로의 수렴**
+     **두가지가 결여되어 있다 (1)  Basecase, (2) Basecase로의 수렴**
 
   * Step2
 
