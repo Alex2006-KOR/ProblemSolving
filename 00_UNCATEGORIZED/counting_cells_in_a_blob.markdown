@@ -9,8 +9,8 @@ author: Alex2006
 ------
 ## 1. Counting cells in a blob
 ![BLOB](./img/blob.jpg)
-#### * 입력  - N * N 크기의 이차원 Grid, 하나의 좌표(x, y)
-#### * 출력 - 픽셀(x, y)가 포함된 blob의 크기, 픽셀이 어떠한 blob에도 속하지 않으면 0
+  * 입력  - N * N 크기의 이차원 Grid, 하나의 좌표(x, y)
+  * 출력 - 픽셀(x, y)가 포함된 blob의 크기, 픽셀이 어떠한 blob에도 속하지 않으면 0
 
 
 ## 2. Recursive Thinking
