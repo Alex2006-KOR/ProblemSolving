@@ -7,12 +7,15 @@ author: Alex2006
   
   
 ------
-### 1. Recursive Thinking
+### 1. Maze
+![MAZE](./img/maze.jpg)
+
+### 2. Recursive Thinking
 ##### (a) 현재 위치가 출구 이거나
 ##### (b) 이웃한 셀들 중 하나에서 현재 위치를 지나지 않고 출구까지 가는 경로가 있거나
 
 
-### 2. Pesudo Code
+### 3. Pesudo Code
 ##### (a) Step1
 
 ```cpp
@@ -42,7 +45,7 @@ bool findPath(x, y)
         ... ...
 ```
 
-### 3. Problem
+### 4. Problem
 ##### (a) [미로탈출 14923](https://www.acpcmicpc.net/problem/14923)
 
 ##### (b) Reference code
