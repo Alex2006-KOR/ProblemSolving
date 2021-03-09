@@ -14,16 +14,16 @@ author: Alex2006
 
 
 ## 2. Recursive Thinking
-#### * 현재 픽셀이 image color가 아니라면 return 0
-#### * 현재 픽셀이 image color라면
-#####     1) 먼저 현재 픽셀을 카운트 한다.
-#####     2) 현재 픽셀에 대한 중복 카운트를 방지하기 위해 다른 색으로 칠한다.
-#####     3) 현재 픽셀에 이웃한 8개 픽셀들에 대해 <span style="color:red">그 픽셀이 속한 blob의 크기를 카운트 하여 카운터에 더한다.</span>
+  * 현재 픽셀이 image color가 아니라면 return 0
+  * 현재 픽셀이 image color라면
+     + 먼저 현재 픽셀을 카운트 한다.
+     + 현재 픽셀에 대한 중복 카운트를 방지하기 위해 다른 색으로 칠한다.
+     + 현재 픽셀에 이웃한 8개 픽셀들에 대해 <span style="color:red">그 픽셀이 속한 blob의 크기를 카운트 하여 카운터에 더한다.</span>
 
 
 
 ## 3. Pesudo Code
-#### * Step1
+  * Step1
 
 ```cpp
 bool findPath(x, y)
@@ -38,7 +38,7 @@ bool findPath(x, y)
 ```
  * 두가지가 결여되어 있다 (1)  Basecase, (2) Basecase로의 수렴
 
-#### * Step2
+  * Step2
 
 ```cpp
 bool findPath(x, y)
