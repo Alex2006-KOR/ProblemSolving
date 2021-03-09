@@ -14,12 +14,11 @@ author: Alex2006
 
 
 ## 2. Recursive Thinking
-#### (a) 현재 픽셀이 image color가 아니라면
-  >            return
+#### (a) 현재 픽셀이 image color가 아니라면 return 0
 #### (b) 현재 픽셀이 image color라면
-  >           먼저 현재 픽셀을 카운트 한다.
-  >           현재 픽셀에 대한 중복 카운트를 방지하기 위해 다른 색으로 칠한다.
-  >           현재 픽셀에 이웃한 8개 픽셀들에 대해 <span style="color:red">그 픽셀이 속한 blob의 크기를 카운트 하여 카운터에 더한다.</span>
+#####     b-1) 먼저 현재 픽셀을 카운트 한다.
+#####     b-2) 현재 픽셀에 대한 중복 카운트를 방지하기 위해 다른 색으로 칠한다.
+#####     b-3) 현재 픽셀에 이웃한 8개 픽셀들에 대해 <span style="color:red">그 픽셀이 속한 blob의 크기를 카운트 하여 카운터에 더한다.</span>
 
 
 
@@ -59,4 +58,3 @@ bool findPath(x, y)
 #### (b) Reference code
 
 ------
-
