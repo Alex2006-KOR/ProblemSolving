@@ -49,8 +49,6 @@ bool findPath(x, y)
 ```
 
 ## 4. Problem
-  * [미로탈출 14923](https://www.acpcmicpc.net/problem/14923)
-
-  * Reference code
+  * TBD
 
 ------

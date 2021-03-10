@@ -35,13 +35,11 @@ algorithm_for_counting_blob(x, y)
     else if pixel(x, y) is not an image pixel or already counted then the result is 0
     else
         set the color of the pixel(x, y) to a red color
-       the result is 1 plus the number of cells in each place of the blob includes a nearst neighbor
+        the result is 1 plus the number of cells in each place of the blob includes a nearst neighbor
 ```
 
 
 ## 4. Problem
-#### * [미로탈출 14923](https://www.acpcmicpc.net/problem/14923)
-
-#### * Reference code
+  * TBD
 
 ------
