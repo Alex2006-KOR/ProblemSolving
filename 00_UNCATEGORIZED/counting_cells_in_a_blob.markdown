@@ -8,7 +8,10 @@ author: Alex2006
   
 ------
 ## 1. Counting cells in a blob
-![BLOB](./img/blob.jpg)
+![BLOB1](./img/blob_1.jpg)
+  * Binary image에 대해 각 픽셀은 background color이거나 image color이다.
+  * 서로 연결된 image 픽셀들의 집합을 Blob이라고 하며 상하좌우 및 대각방향으로도 연결된 경우도 Blob에 해당
+![BLOB2](./img/blob_2.jpg)
   * 입력  - N * N 크기의 이차원 Grid, 하나의 좌표(x, y)
   * 출력 - 픽셀(x, y)가 포함된 blob의 크기, 픽셀이 어떠한 blob에도 속하지 않으면 0
 
