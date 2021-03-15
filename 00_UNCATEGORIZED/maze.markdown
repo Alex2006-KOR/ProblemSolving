@@ -18,7 +18,7 @@ author: Alex2006
   * 이웃한 셀들 중 하나에서 현재 위치를 지나지 않고 출구까지 가는 경로가 있거나
 
 
-## 3. Pesudo Code
+## 3. Pseudo Code
   * Step1
 
 ```cpp

@@ -27,7 +27,7 @@ author: Alex2006
 
 
 
-## 3. Pesudo Code
+## 3. Pseudo Code
 
 ```cpp
 algorithm_for_counting_blob(x, y)
