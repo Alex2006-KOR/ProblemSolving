@@ -16,9 +16,11 @@ author: Alex2006
 ## 2. Recursive(Backtracking) Thinking
 ![QUEEN2](./img/queen_2.jpg)
   * 3번째 행에 말을 놓을 수 없으므로 가장 최근 결정인 2행을 변경  
+
 ![QUEEN3](./img/queen_3.jpg)
   * 4번째 행에 말을 놓을 수 없으므로 가장 최근 결정인 3행을 변경  
      --> 2번째 취소 --> 1번째 취소  
+
 ![QUEEN4](./img/queen_4.jpg)
   * N-Queen 완성  
 
